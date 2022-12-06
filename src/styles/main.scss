@@ -1,0 +1,12 @@
+p {
+    hyphens: auto;
+}
+
+#printButton {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+#printText {
+    transform: translateZ(20px);
+}
