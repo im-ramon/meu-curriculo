@@ -5,9 +5,11 @@ import ContactItem from './parts/ContactItem';
 function Aside() {
     return (
         <>
-            <aside className="bg-gray-100 col-span-full md:col-span-3 rounded-tl-md rounded-bl-md text-gray-700 py-4 px-6">
-                <div id="name_area" className="mt-8 text-center cursor-default">
-                    <img className='rounded-full mb-6 border-2 select-none mx-auto' src={perfil} alt="Foto do perfil" />
+            <aside className="bg-gray-100 col-span-full md:col-span-4 rounded-tl-md rounded-bl-md text-gray-700 py-4 px-6">
+                <div id="name_area" className="mt-8 text-center cursor-default w-full">
+                    <div className='w-full mb-6 px-12'>
+                        <img className='rounded-full border-2 select-none w-full box-content' src={perfil} alt="Foto do perfil" />
+                    </div>
                     <h1 className="text-xl font-semibold mb-1">Ramon Oliveira</h1>
                     <h3 className="text-gray-600 text-sm">Desenvolvedor JavaScript</h3>
                     <h3 className="text-gray-600 text-sm">Full Stack</h3>

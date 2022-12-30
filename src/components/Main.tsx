@@ -6,10 +6,10 @@ import ExperienceItem from "./parts/ExperienceItem";
 export default function Main() {
     return (
         <>
-            <main className="col-span-full text-sm md:text-md md:col-span-9 p-8">
+            <main className="col-span-full text-sm md:text-md md:col-span-8 p-8">
                 <MainConatainer>
                     <Title title="Objetivo" />
-                    <p className="pl-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore obcaecati nobis qui libero quisquam, consectetur sapiente, ullam beatae possimus quis facere reiciendis, alias mollitia recusandae illum sunt ea fugit et.</p>
+                    <p className="pl-4 text-justify">Aos 25, quase um terço dos meus anos de minha vida foram dedicados à carreira militar, onde pude galgar a graduação de 3º Sargento do Exército Brasileiro. Hoje, na busca de novas oportunidade, aproveito os ensinamentos e competências agregados em oito anos passados nessa instituição de grande credibilidade. A hierarquia, disciplina, capacidade de gerir pessoas e trabalhar, concomitantemente, próximo aos meus superiores e subordinados hierárquicos, atuando como um elo entre eles, são habilidades que serão dificilmente adquiridas em outra entidade.</p>
                 </MainConatainer>
 
                 <MainConatainer>
@@ -42,7 +42,7 @@ export default function Main() {
                 </MainConatainer>
 
                 <MainConatainer>
-                    <Title title="Tecnologias" />
+                    <Title title="Tecnologias conhecidas" />
                     <div className="pl-4">
                         <span>React, React Native, Laravel, Bootstrap, Tailwindcss, Sass, Mysql, Photoshop.</span>
                     </div>
@@ -55,7 +55,7 @@ export default function Main() {
                         start="FEV/2014"
                         exit="FEV/2015"
                         office="Auxiliar administrativo"
-                        skills="skills de Auxiliar adm"
+                        skills="Auxiliar nas atividades administrativas de recursos humanos."
                     />
 
                     <ExperienceItem
@@ -63,7 +63,7 @@ export default function Main() {
                         start="MAR/2015"
                         exit="FEV/2023"
                         office="3º Sargento"
-                        skills="Pagamento de pessoal Veterano e Penionistas da organização militar."
+                        skills="Execer a atividade pagamento de pessoal Veterano e Penionistas da organização militar."
                     />
                 </MainConatainer>
             </main>
