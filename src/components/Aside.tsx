@@ -1,8 +1,13 @@
+import { useState } from 'react';
 import Title from './parts/Title';
 import perfil from '../assets/perfil.jpg'
 import { IoDesktopSharp, IoLogoGithub, IoLogoLinkedin, IoLogoWhatsapp, IoMailSharp } from "react-icons/io5";
 import ContactItem from './parts/ContactItem';
+import qr_code from '../assets/qr-code.svg';
+
 function Aside() {
+    const [showQRCode, setShowQRCode] = useState<boolean>(true);
+
     return (
         <>
             <aside className="bg-gray-100 col-span-full md:col-span-4 rounded-tl-md rounded-bl-md text-gray-700 py-4 px-6">
@@ -43,6 +48,24 @@ function Aside() {
                         Possuo experiencia em desenvolvimento para web e dispositivos móveis, com alguns projetos publicados. Hoje, após 8 anos dedicados à carreira militar, busco oportunidades para migrar de área.</p>
 
                 </div>
+
+
+                <div id="qrcode" className={`mt-6 ${showQRCode ? '' : 'print:hidden'}`}>
+                    <Title title='Curriculo online' />
+                    <div className=' px-12'>
+                        <a href="https://curriculo.ramonoliveira.dev/" className='text-center' title='www.curriculo.ramonoliveira.dev' target="_blank" rel="noopener noreferrer">
+                            <img src={qr_code} alt="QRCODE" />
+                        </a>
+                    </div>
+                    <a href='https://curriculo.ramonoliveira.dev/' className='text-xs text-center mt-2 mb-4 block'>
+                        www.curriculo.ramonoliveira.dev
+                    </a>
+                    <div className="flex items-center justify-center mb-4 select-none print:hidden">
+                        <input id="default-checkbox" type="checkbox" checked={showQRCode} onChange={() => { setShowQRCode(!showQRCode) }} value={""} className="w-3 h-3 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
+                        <label htmlFor="default-checkbox" className="ml-2 text-xs font-medium text-gray-900">Exibir na impressão</label>
+                    </div>
+                </div>
+
             </aside>
         </>
     );
