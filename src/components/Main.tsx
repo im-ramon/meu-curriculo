@@ -9,7 +9,7 @@ export default function Main() {
             <main className="col-span-full text-sm md:text-md md:col-span-8 p-8">
                 <MainConatainer>
                     <Title title="Objetivo" />
-                    <p className="pl-4 text-justify">Aos 25, quase um terço dos meus anos de minha vida foram dedicados à carreira militar, onde pude galgar a graduação de 3º Sargento do Exército Brasileiro. Hoje, na busca de novas oportunidade, aproveito os ensinamentos e competências agregados em oito anos passados nessa instituição de grande credibilidade. A hierarquia, disciplina, capacidade de gerir pessoas e trabalhar, concomitantemente, próximo aos meus superiores e subordinados hierárquicos, atuando como um elo entre eles, são habilidades que serão dificilmente adquiridas em outra entidade.</p>
+                    <p className="pl-4 text-justify">Aos 25, quase um terço de minha vida foram dedicados à carreira militar, onde pude galgar a graduação de 3º Sargento do Exército Brasileiro. Hoje, na busca de novas oportunidades, aproveito os ensinamentos e competências agregados em oito anos passados nessa instituição de grande credibilidade. A hierarquia, disciplina, capacidade de gerir pessoas e trabalhar, concomitantemente, próximo aos meus superiores e subordinados hierárquicos, atuando como um elo entre eles, são habilidades que serão dificilmente adquiridas em outra entidade.</p>
                 </MainConatainer>
 
                 <MainConatainer>
