@@ -1,7 +1,7 @@
-import Title from "./parts/Title";
+import ExperienceItem from "./parts/ExperienceItem";
 import MainConatainer from "./parts/MainContainer";
 import ProjetctItem from "./parts/ProjetctItem";
-import ExperienceItem from "./parts/ExperienceItem";
+import Title from "./parts/Title";
 
 export default function Main() {
     return (
@@ -63,7 +63,7 @@ export default function Main() {
                         start="MAR/2015"
                         exit="FEV/2023"
                         office="3º Sargento"
-                        skills="Execer a atividade pagamento de pessoal Veterano e Penionistas da organização militar."
+                        skills="Preparar, calcular, fazer o fechamento da folha de pagamento de pessoal Veterano e Penionistas da organização militar."
                     />
                 </MainConatainer>
             </main>
