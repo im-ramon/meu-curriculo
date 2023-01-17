@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Title from './parts/Title';
-import perfil from '../assets/perfil.jpg'
 import { IoDesktopSharp, IoLogoGithub, IoLogoLinkedin, IoLogoWhatsapp, IoMailSharp } from "react-icons/io5";
-import ContactItem from './parts/ContactItem';
+import perfil from '../assets/perfil.jpg';
 import qr_code from '../assets/qr-code.svg';
+import ContactItem from './parts/ContactItem';
+import Title from './parts/Title';
 
 function Aside() {
     const [showQRCode, setShowQRCode] = useState<boolean>(true);
@@ -44,7 +44,7 @@ function Aside() {
                 </div>
                 <div id="sobremim" className='mt-6'>
                     <Title title='Sobre mim' />
-                    <p className='text-sm text-justify indent-4'>Entusiasta de tecnologia e desenvolvimento para a web desde o meu primeiro blog, com 14 anos. Graduado em Análise e Desenvolvimento de Sistemas pela UNIFACS, hoje me especializo em soluções utilizando JavaScript.
+                    <p className='text-sm text-justify indent-4'>Entusiasta e apaixonado por tecnologia e desenvolvimento para a web desde o meu primeiro blog, com 14 anos. Graduado em Análise e Desenvolvimento de Sistemas pela UNIFACS, hoje me especializo em soluções utilizando JavaScript.
                         Possuo experiencia em desenvolvimento para web e dispositivos móveis, com alguns projetos publicados. Hoje, após 8 anos dedicados à carreira militar, busco oportunidades para migrar de área.</p>
 
                 </div>

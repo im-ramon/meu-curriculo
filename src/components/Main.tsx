@@ -22,7 +22,7 @@ export default function Main() {
                     <Title title="Principais projetos" />
                     <ProjetctItem
                         title="Let's"
-                        linkText="Google Play"
+                        linkText="Google Play [em teste fechado]"
                         linkHref="https://play.google.com/store/apps/details?id=com.app.lets"
                         githubLink="https://github.com/im-ramon/lets"
                         description="Aplicativo para Android, desenvolvido sob demanda, com a finilidade de ajudar o usário a romper com maus hábitos."
@@ -37,33 +37,33 @@ export default function Main() {
                     <ProjetctItem
                         title="Vipera"
                         githubLink="https://github.com/im-ramon/vipera"
-                        description="Aplicação Desktop, desenvolvida sob demanda, para genrenciar vistantes em ambiantes controlados."
+                        description="Aplicação Desktop, desenvolvida sob demanda, para gerenciar vistantes em ambiantes controlados."
                     />
                 </MainConatainer>
 
                 <MainConatainer>
                     <Title title="Tecnologias conhecidas" />
                     <div className="pl-4">
-                        <span>React, React Native, Laravel, Bootstrap, Tailwindcss, Sass, Mysql, Photoshop.</span>
+                        <span>React/ Next.JS, React Native, Laravel, Bootstrap, TailwindCSS, Sass, Mysql, Docker, Photoshop.</span>
                     </div>
                 </MainConatainer>
 
                 <MainConatainer>
                     <Title title="Experiência profissional" />
                     <ExperienceItem
+                        company="Exército Brasileiro"
+                        start="MAR/2015"
+                        exit="FEV/2023"
+                        office="3º Sargento | Pagamaneto de pessoal Veterano e Pensionistas"
+                        skills="Preparar, calcular, fazer o fechamento da folha de pagamento de pessoal Veterano e Penionistas da organização militar, além de atividades inerentes à carreira militar."
+                    />
+
+                    <ExperienceItem
                         company="Atrium Construções e Empreendimentos"
                         start="FEV/2014"
                         exit="FEV/2015"
                         office="Auxiliar administrativo"
-                        skills="Auxiliar nas atividades administrativas de recursos humanos."
-                    />
-
-                    <ExperienceItem
-                        company="Exército Brasileiro"
-                        start="MAR/2015"
-                        exit="FEV/2023"
-                        office="3º Sargento"
-                        skills="Preparar, calcular, fazer o fechamento da folha de pagamento de pessoal Veterano e Penionistas da organização militar."
+                        skills="Auxiliar nas atividades administrativas no setor de recursos humanos."
                     />
                 </MainConatainer>
             </main>
