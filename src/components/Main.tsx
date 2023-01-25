@@ -32,19 +32,19 @@ export default function Main() {
                         linkText="www.examedepagamento.com.br"
                         linkHref="https://examedepagamento.com.br/"
                         githubLink="https://github.com/im-ramon/examedepagamento"
-                        description="Sitema para confecção de contracheques, desenvolvido com a finalidade de auxiliar todos que desenvolvem a atividade de exame de pagamento de pessoal, no âmbito do Exército Brasileiro."
+                        description="Sistema simplificado para auditoria de pagamento, desenvolvido com a finalidade de auxiliar todos que desenvolvem a atividade de exame de pagamento de pessoal, no âmbito do Exército Brasileiro."
                     />
                     <ProjetctItem
                         title="Vipera"
                         githubLink="https://github.com/im-ramon/vipera"
-                        description="Aplicação Desktop, desenvolvida sob demanda, para gerenciar vistantes em ambiantes controlados."
+                        description="Aplicação Desktop (Linux/ Windows), desenvolvida sob demanda, para gerenciar o fluxo de vistantes em ambiantes controlados."
                     />
                 </MainConatainer>
 
                 <MainConatainer>
-                    <Title title="Tecnologias conhecidas" />
+                    <Title title="Tecnologias com experiência comprovada em projetos" />
                     <div className="pl-4">
-                        <span>React/ Next.JS, React Native, Laravel, Bootstrap, TailwindCSS, Sass, Mysql, Docker, Photoshop.</span>
+                        <span>React/ Next.JS, React Native, PHP/ Laravel, Bootstrap, TailwindCSS, Sass, Mysql, Docker, Photoshop.</span>
                     </div>
                 </MainConatainer>
 
@@ -54,7 +54,7 @@ export default function Main() {
                         company="Exército Brasileiro"
                         start="MAR/2015"
                         exit="FEV/2023"
-                        office="3º Sargento | Pagamaneto de pessoal Veterano e Pensionistas"
+                        office="3º Sargento | Pagamento de pessoal Veterano e Pensionistas"
                         skills="Preparar, calcular, fazer o fechamento da folha de pagamento de pessoal Veterano e Penionistas da organização militar, além de atividades inerentes à carreira militar."
                     />
 

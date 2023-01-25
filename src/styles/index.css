@@ -20,6 +20,12 @@
     -webkit-text-size-adjust: 100%;
 }
 
+@media print {
+    :root {
+        background: rgb(255, 255, 255);
+    }
+}
+
 #root {
     max-width: 1440px;
     margin: 0 auto;

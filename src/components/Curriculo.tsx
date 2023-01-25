@@ -1,8 +1,8 @@
 import { useRef } from 'react';
+import { useReactToPrint } from 'react-to-print';
 import Aside from "./Aside";
 import ButtonArea from "./ButtonArea";
 import Main from "./Main";
-import { useReactToPrint } from 'react-to-print';
 
 export default function Curriculo() {
     const componentRef = useRef(null);
@@ -12,7 +12,7 @@ export default function Curriculo() {
 
     return (
         <>
-            <div ref={componentRef} id="curriculo" className="bg-white border mx-auto w-full max-w-screen-lg text-text rounded-md my-10 grid grid-cols-12">
+            <div ref={componentRef} id="curriculo" className="bg-white shadow-md print:shadow-none border mx-auto w-full max-w-screen-lg text-text rounded-md my-10 grid grid-cols-12">
                 <Aside />
                 <Main />
             </div>

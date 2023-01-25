@@ -16,7 +16,8 @@ function Aside() {
                         <img className='rounded-full border-2 select-none w-full box-content' src={perfil} alt="Foto do perfil" />
                     </div>
                     <h1 className="text-xl font-semibold mb-1">Ramon Oliveira</h1>
-                    <h3 className="text-gray-600 text-sm">Desenvolvedor JavaScript</h3>
+                    <h3 className="text-gray-600 text-sm">Desenvolvedor</h3>
+                    <h3 className="text-gray-600 text-sm font-medium">JavaScript | TypeScript | Node.JS</h3>
                     <h3 className="text-gray-600 text-sm">Full Stack</h3>
                 </div>
                 <div id="contatos" className='mt-6'>
@@ -44,14 +45,13 @@ function Aside() {
                 </div>
                 <div id="sobremim" className='mt-6'>
                     <Title title='Sobre mim' />
-                    <p className='text-sm text-justify indent-4'>Entusiasta e apaixonado por tecnologia e desenvolvimento para a web desde o meu primeiro blog, com 14 anos. Graduado em Análise e Desenvolvimento de Sistemas pela UNIFACS, hoje me especializo em soluções utilizando JavaScript.
-                        Possuo experiencia em desenvolvimento para web e dispositivos móveis, com alguns projetos publicados. Hoje, após 8 anos dedicados à carreira militar, busco oportunidades para migrar de área.</p>
-
+                    <p className='text-sm text-justify indent-4'>Entusiasta e apaixonado por tecnologia e desenvolvimento para a web desde o meu primeiro <a href="http://editpesramon.blogspot.com/" target="_blank" rel="noopener noreferrer" className='font-medium'>blog</a>, com 14 anos, sou graduado em Análise e Desenvolvimento de Sistemas pela UNIFACS. Hoje me especializo em soluções utilizando JavaScript/ TypeScript.
+                        Possuo experiencia em desenvolvimento para web e dispositivos móveis, com alguns projetos publicados. Hoje, após 8 anos dedicados à incrível experiência da carreira militar, faço o que amo e não vejo a possibilidade de mudar de rumo tão cedo.</p>
                 </div>
 
 
                 <div id="qrcode" className={`mt-6 ${showQRCode ? '' : 'print:hidden'}`}>
-                    <Title title='Curriculo online' />
+                    <Title title='Currículo atualizado' />
                     <div className=' px-12'>
                         <a href="https://curriculo.ramonoliveira.dev/" className='text-center' title='www.curriculo.ramonoliveira.dev' target="_blank" rel="noopener noreferrer">
                             <img src={qr_code} alt="QRCODE" />

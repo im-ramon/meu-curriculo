@@ -1,8 +1,8 @@
-import Curriculo from './components/Curriculo'
+import Curriculo from './components/Curriculo';
 
 function App() {
     return (
-        <div id="app" className='bg-gray-100'>
+        <div id="app">
             <Curriculo />
         </div>
     );
