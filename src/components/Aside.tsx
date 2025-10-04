@@ -16,55 +16,64 @@ function Aside() {
                         <img className='rounded-full border-2 select-none w-full box-content' src={perfil} alt="Foto do perfil" />
                     </div>
                     <h1 className="text-xl font-semibold mb-1">Ramon Oliveira</h1>
-                    <h3 className="text-gray-600 text-sm">Desenvolvedor</h3>
-                    <h3 className="text-gray-600 text-sm font-medium">JavaScript | TypeScript | Node.JS</h3>
-                    <h3 className="text-gray-600 text-sm">Full Stack</h3>
+                    <h3 className="text-gray-600 text-sm">Analista de Segurança</h3>
+                    <h3 className="text-gray-600 text-sm font-medium">Segurança Empresarial | Segurança Eletrônica | Desenvolvimento | Power BI</h3>
                 </div>
                 <div id="contatos" className='mt-6'>
                     <Title title="Contatos" />
-                    <ContactItem
+                    {/* <ContactItem
                         icon={<IoDesktopSharp />}
-                        link={<a target={'_blank'} href="https://ramonoliveira.dev">ramonoliveira.dev</a>}
-                    />
+                        link={<a target={'_blank'} href="https://ramonoliveira.dev.br">ramonoliveira.dev.br</a>}
+                    /> */}
                     <ContactItem
                         icon={<IoLogoWhatsapp />}
-                        link={<a target={'_blank'} href="tel:5575991537677">+55 75 9 9153-7677</a>}
+                        link={<a target={'_blank'} href="tel:5575991537677">+55 75 9 9963-9190</a>}
                     />
                     <ContactItem
                         icon={<IoMailSharp />}
-                        link={<a target={'_blank'} href="mailto:contato@ramonoliveira.dev">contato@ramonoliveira.dev</a>}
+                        link={<a target={'_blank'} href="mailto:ramon.santos11@outlook.com">ramon.santos11@outlook.com</a>}
                     />
                     <ContactItem
                         icon={<IoLogoLinkedin />}
                         link={<a target={'_blank'} href="https://www.linkedin.com/in/ramon-oliveira-21b8571a2/">LinkedIn</a>}
                     />
-                    <ContactItem
+                    {/* <ContactItem
                         icon={<IoLogoGithub />}
                         link={<a target={'_blank'} href="https://github.com/im-ramon">GitHub</a>}
-                    />
+                    /> */}
                 </div>
                 <div id="sobremim" className='mt-6'>
                     <Title title='Sobre mim' />
-                    <p className='text-sm text-justify indent-4'>Entusiasta e apaixonado por tecnologia e desenvolvimento para a web desde o meu primeiro <a href="http://editpesramon.blogspot.com/" target="_blank" rel="noopener noreferrer" className='font-medium'>blog</a>, com 14 anos, sou graduado em Análise e Desenvolvimento de Sistemas pela UNIFACS. Hoje me especializo em soluções utilizando JavaScript/ TypeScript.
-                        Possuo experiencia em desenvolvimento para web e dispositivos móveis, com alguns projetos publicados. Hoje, após 8 anos dedicados à incrível experiência da carreira militar, faço o que amo e não vejo a possibilidade de mudar de rumo tão cedo.</p>
+                    <p className='text-sm text-justify indent-4'>
+                        Sou um profissional com sólida experiência em segurança empresarial, monitoramento eletrônico e gestão de riscos,
+                        adquirida ao longo de oito anos de carreira no Exército Brasileiro, como 3º Sargento, e em projetos estratégicos
+                        no setor de petróleo e gás. Atuei no planejamento, implantação e operação de Centrais de Monitoramento (SOC/CCO),
+                        integração de sistemas de segurança e, mais recentemente, na condução em campo das atividades de implantação de segurança
+                        eletrônica em refinaria, garantindo aderência a requisitos técnicos e de compliance.
+
+                        Tenho como pontos fortes a disciplina, liderança de equipes, análise de cenários de risco e implementação de
+                        melhorias contínuas em processos de segurança. Minha formação em Análise e Desenvolvimento de Sistemas e pós-graduações
+                        em Engenharia e Arquitetura de Software agregam uma visão tecnológica aplicada à segurança eletrônica e à cibersegurança.
+                    </p>
                 </div>
 
 
-                <div id="qrcode" className={`mt-6 ${showQRCode ? '' : 'print:hidden'}`}>
+
+                {/* <div id="qrcode" className={`mt-6 ${showQRCode ? '' : 'print:hidden'}`}>
                     <Title title='Currículo atualizado' />
                     <div className=' px-12'>
-                        <a href="https://curriculo.ramonoliveira.dev/" className='text-center' title='www.curriculo.ramonoliveira.dev' target="_blank" rel="noopener noreferrer">
+                        <a href="https://curriculo.ramonoliveira.dev.br/" className='text-center' title='www.curriculo.ramonoliveira.dev.br' target="_blank" rel="noopener noreferrer">
                             <img src={qr_code} alt="QRCODE" />
                         </a>
                     </div>
-                    <a href='https://curriculo.ramonoliveira.dev/' className='text-xs text-center mt-2 mb-4 block'>
-                        www.curriculo.ramonoliveira.dev
+                    <a href='https://curriculo.ramonoliveira.dev.br/' className='text-xs text-center mt-2 mb-4 block'>
+                        www.curriculo.ramonoliveira.dev.br
                     </a>
                     <div className="flex items-center justify-center mb-4 select-none print:hidden">
                         <input id="default-checkbox" type="checkbox" checked={showQRCode} onChange={() => { setShowQRCode(!showQRCode) }} value={""} className="w-3 h-3 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
                         <label htmlFor="default-checkbox" className="ml-2 text-xs font-medium text-gray-900">Exibir na impressão</label>
                     </div>
-                </div>
+                </div> */}
 
             </aside>
         </>
