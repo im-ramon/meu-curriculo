@@ -64,12 +64,12 @@ export default function Main() {
                         office="Analista de Segurança"
                         skills={
                             [
-                                "Condução das atividades de campo na implantação do Projeto de Segurança Eletrônica (CFTV IP, controle de acesso, e Software auxiliares) na Refinaria",
-                                "Realização de treinamentos sobre tecnologia, destinados ao Centro de Comunicação, Comando e Controle da refinaria.",
-                                "Gestão da manutenção dos dispositivos e garantia de conformidade dos softwares de segurança pós-implantação.",
+                                "Condução das atividades de campo na implantação do Projeto de Segurança Eletrônica (CFTV IP, controle de acesso, e Software auxiliares) na Refinaria.",
+                                "Realização de treinamentos sobre tecnologia, destinados ao Centro de Comunicação, Comando e Controle da Refinaria.",
+                                "Gestão da equipe de manutenção dos dispositivos e garantia de conformidade dos softwares de segurança pós-implantação.",
                                 "Auditoria e análise de imagens de CFTV; suporte técnico em investigações de incidentes e elaboração de relatórios conclusivos.",
-                                "Criação e manutenção de dashboards (Power BI) e relatórios gerenciais para consolidação de indicadores de segurança (KPIs/KRIs) e suporte à tomada de decisão executiva.",
-                                "Suporte técnico e integração: atuação como interface técnica para equipes que realizam integrações com os sistemas de segurança da refinaria.",
+                                "Criação e manutenção de dashboards (Power BI) e relatórios gerenciais para consolidação de indicadores de segurança e suporte à tomada de decisão executiva.",
+                                "Suporte técnico e integração: atuação como interface técnica para equipes que realizam integrações com os sistemas de segurança da Refinaria.",
                                 "Desenvolvimento de soluções de software para automação de processos e integração de dados entre sistemas.",
                                 "Elaboração de procedimentos operacionais.",
                                 "Análise de riscos físicos e tecnológicos, com foco em cibersegurança aplicada à segurança eletrônica."

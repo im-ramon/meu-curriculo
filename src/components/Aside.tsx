@@ -16,8 +16,8 @@ function Aside() {
                         <img className='rounded-full border-2 select-none w-full box-content' src={perfil} alt="Foto do perfil" />
                     </div>
                     <h1 className="text-xl font-semibold mb-1">Ramon Oliveira</h1>
-                    <h3 className="text-gray-600 text-sm">Analista de Segurança</h3>
-                    <h3 className="text-gray-600 text-sm font-medium">Segurança Empresarial | Segurança Eletrônica | Desenvolvimento | Power BI</h3>
+                    <h3 className="text-gray-700 text-sm">Analista de Segurança</h3>
+                    <h3 className="text-gray-400 text-xs font-medium">Segurança Empresarial | Segurança Eletrônica | Desenvolvimento | Power BI</h3>
                 </div>
                 <div id="contatos" className='mt-6'>
                     <Title title="Contatos" />
@@ -45,19 +45,17 @@ function Aside() {
                 <div id="sobremim" className='mt-6'>
                     <Title title='Sobre mim' />
                     <p className='text-sm text-justify indent-4'>
-                        Sou um profissional com sólida experiência em segurança empresarial, monitoramento eletrônico e gestão de riscos,
+                        Sou um profissional com sólida experiência em segurança empresarial, desenvolvimento, tecnologias e monitoramento eletrônico,
                         adquirida ao longo de oito anos de carreira no Exército Brasileiro, como 3º Sargento, e em projetos estratégicos
                         no setor de petróleo e gás. Atuei no planejamento, implantação e operação de Centrais de Monitoramento (SOC/CCO),
-                        integração de sistemas de segurança e, mais recentemente, na condução em campo das atividades de implantação de segurança
+                        integração de sistemas de segurança e, mais recentemente, na condução das atividades de implantação de segurança
                         eletrônica em refinaria, garantindo aderência a requisitos técnicos e de compliance.
 
                         Tenho como pontos fortes a disciplina, liderança de equipes, análise de cenários de risco e implementação de
                         melhorias contínuas em processos de segurança. Minha formação em Análise e Desenvolvimento de Sistemas e pós-graduações
-                        em Engenharia e Arquitetura de Software agregam uma visão tecnológica aplicada à segurança eletrônica e à cibersegurança.
+                        em Engenharia e Arquitetura de Software agregam uma visão tecnológica aplicada à segurança eletrônica e também à cibersegurança.
                     </p>
                 </div>
-
-
 
                 {/* <div id="qrcode" className={`mt-6 ${showQRCode ? '' : 'print:hidden'}`}>
                     <Title title='Currículo atualizado' />
